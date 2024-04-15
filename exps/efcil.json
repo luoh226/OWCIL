@@ -1,0 +1,31 @@
+{
+    "prefix": "ccil",
+    "dataset": "cifar100",
+    "memory_size": 0,
+    "shuffle": true,
+    "init_cls": 10,
+    "increment": 10,
+    "model_name": "efcil",
+    "convnet_type": "resnet18",
+    "device": ["0"],
+    "seed": [1993],
+    "batch_size": 128,
+
+    "loss_type":"mse",
+    "activate_type": "relu",
+    "a1": 0.5,
+    "a2": 0.5,
+    "coef_type": "exp",
+    "coef_start": 0.01,
+
+    "separate_head": true,
+    "separate_type": 3,
+    "b1": 0.92,
+    "b2": 0.08,
+    "auto_aug": false,
+
+    "eval_ccil": true,
+    "ood_method": "EDL6",
+    "ood_thresh": 1.0,
+    "eval_only": false
+}
