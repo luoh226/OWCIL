@@ -1,1 +1,1 @@
-# Open-World-Exemplar-Free-Class-Incremental-Learning
+# Open-World-Class-Incremental-Learning
